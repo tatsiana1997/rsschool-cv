@@ -34,6 +34,6 @@ BSUIR (2014-2018) - eBusiness Economics
 
 ### Languages
 1. Russian - **native**
-2. Belorussian - **native**
+2. Belarusian - **native**
 3. English - **B2**
 4. Italian - **B2**
