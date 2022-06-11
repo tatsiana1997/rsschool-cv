@@ -1,7 +1,62 @@
-body {
-  background-color: antiquewhite;
+* {
+  box-sizing: border-box;
 }
 
-p {
-  color: blueviolet;
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1440px;
+  font-family: sans-serif;
+}
+
+header,
+footer {
+  width: 100%;
+  background-color: #aed6f1;
+}
+
+main {
+  width: 100%;
+  padding: 0 30px;
+  background-color: #f8f9f9;
+}
+
+a {
+  color: grey;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+h2 {
+  text-transform: uppercase;
+}
+
+code {
+  color: cadetblue;
+}
+
+.navigation-menu,
+.footer-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.footer-menu {
+  margin: 0;
+}
+
+.rs-logo img {
+  width: 100px;
+  height: 50px;
 }
